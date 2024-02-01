@@ -1,0 +1,18 @@
+@import "./font/font.css";
+@import "./tailwind.css";
+@import "./icomoon/style.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: proximanova;
+}
+
+.transition-200 {
+  transition: .2s ease-in-out;
+}
+
+.flex-center {
+  @apply flex items-center justify-center
+}
